@@ -7,7 +7,7 @@ $ ( document ).ready(function(){
     var rand = Math.floor(Math.random() * (link.length + 1 - 1 + 1)) + 1;
     console.log(rand);
     console.log(link[rand])
-    $("#potatoImg").append('<center><img src="'+link[rand]+'" alt="someimage" style="width:604px;height:456px;"/></center>');
+    $("#potatoImg").append('<center><img src="'+link[rand]+'" alt="A Potato" style="width:604px;height:456px;"/></center>');
     
   });
                        
