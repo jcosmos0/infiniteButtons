@@ -6,7 +6,7 @@ $ ( document ).ready(function(){
   $("#generatePotato").click(function() {
     var rand = Math.floor(Math.random() * (2 - 1 + 1)) + 1;
     console.log(rand);
-    $("#potatoImg").html('<img src=link[1] alt="potato" />');
+    $("#potatoImg").html('<img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Patates.jpg" alt="potato" />');
     
   });
                        
