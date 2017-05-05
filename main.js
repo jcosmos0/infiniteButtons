@@ -6,6 +6,7 @@ $ ( document ).ready(function(){
   $("#potatoGenerate").click(function() {
     var rand = Math.floor(Math.random() * (3 - 1 + 1)) + 1;
     console.log(rand);
+    console.log(link[rand])
     $("#potatoImg").append('<center><img src=link[rand] alt="someimage" style="width:604px;height:456px;"/></center>');
     
   });
