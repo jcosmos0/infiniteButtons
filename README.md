@@ -1,2 +1,1 @@
-# A Potato
-Generator
+# Infinite Buttons
