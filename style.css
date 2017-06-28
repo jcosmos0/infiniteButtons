@@ -11,3 +11,9 @@ html * {
    font-family: 'Quicksand', sans-serif;
 
 }
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
