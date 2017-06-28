@@ -18,7 +18,7 @@ $ ( document ).ready(function(){
 
 
 
-function buttonClick {
+function buttonClick() {
     $("#buttonOne2").append('<center><button type="button" id = "buttonOne">Click Me!</button></center>');
   
   }
